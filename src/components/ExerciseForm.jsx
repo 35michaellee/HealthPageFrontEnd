@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import axios from 'axios';
+import '../css/ExerciseForm.css'
 
 const ExerciseSearch = () => {
   // State variables to store user input and exercise data
@@ -55,6 +56,7 @@ const ExerciseSearch = () => {
             ))}
           </select>
         </div>
+        <br></br>
         <div>
           <label htmlFor="exerciseDifficulty">Exercise Difficulty:</label>
           <select
@@ -68,12 +70,13 @@ const ExerciseSearch = () => {
             ))}
           </select>
         </div>
+        <br></br>
         <button type="submit">Search</button>
       </form>
       {loading ? (
         <p>Loading...</p>
       ) : (
-        <ul>
+        <ul id ="exerciseList">
           {exercises.map((exercise, index) => (
             <li key={index}>{exercise.name}</li>
           ))}

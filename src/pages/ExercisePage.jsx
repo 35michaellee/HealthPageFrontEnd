@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import ExerciseForm from "../components/ExerciseForm";
+import "../css/ExerciseForm.css"
 // import ExerciseList from "../components/ExerciseList";
 
 const ExercisePage = () => {
@@ -29,7 +30,6 @@ const ExercisePage = () => {
 
   return (
     <>
-      <h1>Exercise Page whattttt </h1>
       <ExerciseForm/>
     </>
   );
