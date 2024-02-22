@@ -29,11 +29,14 @@ export default function Main() {
       <p>While there's plenty to learn about wellness, this community serves as an excellent starting point for your journey towards a healthier lifestyle. Here, you'll find valuable resources, insightful articles, and supportive members who are all passionate about wellness and fitness.</p>
       <p>So, whether you're looking to improve your fitness routine, learn more about nutrition, or simply connect with like-minded individuals, you've come to the right place. Join us in our quest for wellness, and let's embark on this journey together!</p>
       </section>
-      
-      <h1>TOP TIPS FOR HEALTH</h1>
-      <Carousel items={items} />
+    
 
       <section style={{marginTop:"5rem", display: 'flex', justifyContent: 'space-between' }}> 
+      <div className="mainDivs" id="tipsOnMain">
+        <h2>Come See Our Top Tips for health</h2>
+        <p>we have included some tips with linked articles for better health.Check it out </p>
+      <Link className="link" to="/Tips">Go to Tips</Link>
+      </div>
       <div className="mainDivs" id="groceryListOnMain">
         <h2>Would you like to build a grocerylist ?</h2>
         <p>we have included a standard gorcery list that our community has built.It is healthy short.Check it out </p>

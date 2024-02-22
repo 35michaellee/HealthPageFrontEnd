@@ -1,100 +1,36 @@
-# React + Vite
+# React and Viet Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my react App that debuts a health tips page. The first page helps introduce the pages and then there are three navigational pages that include health tips, a grocery list, and a way to search for excersizes. The grocery list and the carousel of top health tips utilize a mongo db server : please go to this page to run your own version of that application to get this one working. 
 
-Currently, two official plugins are available:
+## Overview
+this application is a front end web application that connects to  two eternal apis. You can
+1 is a api for getting exercises https://api.api-ninjas.com/v1/exercises
+the other is a mongodb server that runs on port 3000 the url for the api calls is http://localhost:3000
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-directions :
-npm install# HealthPageFrontEnd
+1. Clone the repository to your local machine:
+
+git clone https://github.com/35michaellee/HealthPageFrontEnd.git
 
 
-Grocery List Application
-Welcome to Michael Health Application! This application allows users to manage their grocery lists, add new items, delete items, and download the grocery list organized by category.It also helps users search for new exercises 
+2.  Navigate to the project directory:Esparza_michael_HealthPage
 
-Installation
-Clone the repository to your local machine:
+3. install all dependenceies : npm install
 
-bash
-Copy code
-git clone https://github.com/your-username/grocery-list-app.git
-Navigate to the project directory:
+4.  go to https://api.api-ninjas.com and create you own api key that is needed on excersie form located in the components file. 
+5.Run your application with npm run dev
 
-bash
-Copy code
-cd Grocery List Application
-Welcome to the Grocery List Application! This application allows users to manage their grocery lists, add new items, delete items, and download the grocery list organized by category.
 
-Installation
-Clone the repository to your local machine:
+## Usage
 
-bash
-Copy code
-git clone https://github.com/your-username/grocery-list-app.git
-Navigate to the project directory:
+Once the server is running, you can access the application in your web browser on location local host http://localhost:5173/
 
-bash
-Copy code
-cd grocery-list-app
-Install dependencies:
+you may navigate to three seperate pages :main , exercises or grocer list 
+thier urls are 
+http://localhost:5173/GroceryList
+where you can search for grocery items already on your list , delete them with a click of your button , add to the list , or reset the list to a standard list 
 
-Copy code
-npm install
-Start the development server:
 
-sql
-Copy code
-npm start
-Usage
-Once the application is running, you can access it in your web browser at http://localhost:3000. Here are the main features of the application:
 
-Add Item: Enter a new grocery item and select its category, then click "Add Item" to add it to the list.
-Delete Item: Click on the item's name to delete it from the list.
-Search: Use the search bar to filter the list based on item names.
-Download: Click the "Download Grocery List" button to download the grocery list organized by category.
-Contributing
-Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature or bug fix: git checkout -b feature-name.
-Make changes and commit them: git commit -m 'Add new feature'.
-Push to the branch: git push origin feature-name.
-Submit a pull request.
-Please make sure to follow the code of conduct.
-
-License
-This project is licensed under the MIT License.
-
-Feel free to copy and paste this content into your README file. Adjust the URLs, commands, and other details as needed to match your project setup.
-Install dependencies:
-
-Copy code
-npm install
-Start the development server:
-
-sql
-Copy code
-npm start
-Usage
-Once the application is running, you can access it in your web browser at http://localhost:3000. Here are the main features of the application:
-
-Add Item: Enter a new grocery item and select its category, then click "Add Item" to add it to the list.
-Delete Item: Click on the item's name to delete it from the list.
-Search: Use the search bar to filter the list based on item names.
-Download: Click the "Download Grocery List" button to download the grocery list organized by category.
-Contributing
-Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
-
-Fork the repository.
-Create a new branch for your feature or bug fix: git checkout -b feature-name.
-Make changes and commit them: git commit -m 'Add new feature'.
-Push to the branch: git push origin feature-name.
-Submit a pull request.
-Please make sure to follow the code of conduct.
-
-License
-This project is licensed under the MIT License.
-
-Feel free to copy and paste this content into your README file. Adjust the URLs, commands, and other details as needed to match your project setup.

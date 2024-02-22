@@ -1,6 +1,7 @@
 import React, { useState} from 'react';
 import axios from 'axios';
 import '../css/ExerciseForm.css'
+import { Link } from 'react-router-dom';
 
 const ExerciseSearch = () => {
   // State variables to store user input and exercise data
@@ -40,6 +41,7 @@ const ExerciseSearch = () => {
   };
 
   return (
+    <>
     <div>
       <h2>Exercise Search</h2>
       <form onSubmit={handleSubmit}>
@@ -83,6 +85,8 @@ const ExerciseSearch = () => {
         </ul>
       )}
     </div>
+    <Link to="/" className="back-to-home-link">Back to Home Page</Link>
+    </>
   );
 };
 

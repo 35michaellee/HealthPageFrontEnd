@@ -1,0 +1,27 @@
+.tipsContainer {
+    background-image: url("https://images.unsplash.com/photo-1517428830766-9da446860793?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+    border-radius: 15px; /* Add rounded edges */
+    box-shadow: -10px 0px 15px rgba(0, 0, 0, 0.5); /* Add a shadow to the left */
+  }
+  .tipsContainer p {
+    /* Your styles for p elements within .tipsContainer */
+
+    font-size: 2rem; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the font thicker */
+    font-style: italic; /* Make the font italic */
+    color: #333; /* Change the text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for depth */
+    letter-spacing: 1px; /* Add some letter spacing */
+  }
+  h1 {
+    font-size: 3rem; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the font thicker */
+    font-style: italic; /* Make the font italic */
+    color: #333; /* Change the text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for depth */
+    letter-spacing: 1px; /* Add some letter spacing */
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
+  }
