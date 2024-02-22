@@ -146,7 +146,7 @@ const GroceryListPage = () => {
       <div className="grocery-list-container">
         <div className="grocery-list">
           <h2>Grocery List</h2>
-          <h1>You may seach this list and delete any items by clicking on their name</h1>
+          <h1>You may search this list and delete any items by clicking on their name</h1>
           <input
             type="text"
             value={searchQuery}
